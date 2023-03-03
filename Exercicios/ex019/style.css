@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(164, 231, 164, 0.79);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1 {
+    color: rgb(5, 195, 5);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: rgba(94, 217, 94, 0.975);
+}
+h1#principal {
+    text-align: center;
+    background-color: rgba(61, 124, 61, 0.272);
+    font-size: 2.5em;
+}
+.normal {
+    color: red;
+}
+.intermediario {
+    color: blue;
+}
+.avançado {
+    color: black;
+}
+p {
+    text-align: justify;
+}

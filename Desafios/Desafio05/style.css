@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'letbrigor';
+    src: url('./font/LETBRIGOR.otf') format('opentype');
+    font-weight: normal;
+
+}
+
+:root {
+    --cor1: #0174E9;
+    --cor2: #99CEF8;
+    --cor3: #01B401;
+    --cor4: #FD9301;
+    --cor5: #021D32;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Raleway', cursive;
+    --fonte-especial: 'letbrigor', cursive;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
+    text-align: center;
+    font-family: var(--fonte-especial);
+    padding: 20px;
+    margin: -8px -10px 0px -10px;
+}
+
+nav {
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    
+    
+}
+
+nav >a:hover {
+    background-color: var(--cor4);
+    padding: 6px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav > a {
+    text-decoration: none;
+    padding: 0px 7px 0px 0px;
+    font-family: var(--fonte-destaque);
+    font-weight: normal;
+    color: var(--cor5);
+
+}
+
+body {
+    background-color: var(--cor2);
+}
+
+main {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 5px;
+    width: 85%;
+    
+}
+main > p {
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+    margin: 15px 0px;
+}
+
+main > h1 {
+    background-image: linear-gradient(to right, #0175e949, transparent);
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    padding: 3px 3px 3px 9px;
+}
+main > h2 {
+    background-image: linear-gradient(to right, #0175e949, transparent);
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    padding: 5px 5px 5px 9px;
+    margin: 0px 0px -16px 0px;
+    text-decoration: none;
+}
+main > h3 {
+    font-family: var(--fonte-destaque);
+}
+main > ul {
+    
+    background-image: linear-gradient(to right, #0175e949, transparent);
+    padding: 20px;
+    list-style-position: inside;
+    
+    
+}
+
+main a {
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: black;
+}
+main a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+    
+}
+main img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5px;
+    font-size: small;
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+}
+aside {
+    background-image: radial-gradient(var(--cor1), var(--cor2));
+    
+    padding: 10px;
+    margin: 0px -20px -20px -20px;
+
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        a {
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            color: rgb(35, 217, 15);
+            text-decoration: none;
+        }
+        a:active {
+            color: yellow;
+        }
+        a::after {
+            content: ' ☜';☜
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 1.5em;
+            color: rgb(1, 0, 0);
+        }
+        a::before {
+            content: '☞ ';
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 1.5em;
+            color: rgb(1, 0, 0);
+        }
+        .especial {
+            background-color: aqua;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Trabalhando com Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/channel/UCh-0jbTohkPIvrfTMUdF1Hw" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://soundcloud.com/lovaccmusic" target="_blank">Soundcloud</a></li>
+        <li><a href="https://instagram.com/lovaccmusic" target="_blank" class="especial">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>

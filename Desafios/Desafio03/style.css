@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(117, 187, 133, 0.868);
+}
+
+
+main {
+    background-color: white;
+}
+header {
+    background-color: rgb(76, 155, 76);
+    padding: 20px;
+}
