@@ -69,7 +69,8 @@ main > p {
     text-align: justify;
     text-indent: 20px;
     line-height: 1.5em;
-    margin: 15px 0px;
+    margin: 25px 0px;
+    
 }
 
 main > h1 {
@@ -77,6 +78,7 @@ main > h1 {
     font-family: var(--fonte-destaque);
     font-weight: bold;
     padding: 3px 3px 3px 9px;
+    margin: 5px 5px -5px 5px;
 }
 main > h2 {
     background-image: linear-gradient(to right, #0175e949, transparent);
@@ -89,6 +91,7 @@ main > h2 {
 main > h3 {
     font-family: var(--fonte-destaque);
 }
+
 main > ul {
     
     background-image: linear-gradient(to right, #0175e949, transparent);
@@ -110,6 +113,7 @@ main a:hover {
 }
 main img {
     width: 100%;
+    padding: 10px;
 }
 
 footer {
