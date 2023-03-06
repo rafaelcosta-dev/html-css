@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento de caixas</title>
+    <style>
+        #conteiner {
+            background-color: blueviolet;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            width: 700px;
+            height: 96vh;
+            border: 1px solid black;
+            position: relative;
+            padding: 10px;
+
+        }
+        #conteudo {
+            background-color: brown;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-100px, -100px);
+
+
+        }
+    </style>
+</head>
+<body>
+    <section id="conteiner">
+        <article id="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>
